@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive navbar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+
+        <nav class="head">
+            
+            <div class="logo">
+                <h4>JAMSHEED</h4>
+            </div>
+            <div class="navbar">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contect</a>
+                <a href="#">Blog</a>
+            </div>
+            
+            <div class="toggle">
+                <ion-icon onclick="toggle()" name="menu"></ion-icon>
+            </div>
+        </nav>
+        
+    </div>
+    <div id="toggle" class="toogle-nav">
+        <div class="ank">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contect</a>
+            <a href="#">Blog</a>
+        </div>
+        <div class="crosss">
+            <ion-icon onclick="toggle_closs()" name="close"></ion-icon>
+        </div>
+    </div>
+
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
